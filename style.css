@@ -32,7 +32,7 @@
   --chalk-soft: #B7C2BC;
   --muted: #A9B5AE;
   --dim: #8A9891;
-  --marigold: #F2B33D;
+  --highlight: #69B7E8;
   --coral: #FF8F70;
 
   --font-display: "Bricolage Grotesque", system-ui, sans-serif;
@@ -84,7 +84,7 @@ body {
 }
 
 .tile {
-  fill: var(--marigold);
+  fill: var(--highlight);
 }
 
 .tile-letter {
@@ -110,7 +110,7 @@ body {
 
 .wordmark .blank {
   color: transparent;
-  border-bottom-color: var(--marigold);
+  border-bottom-color: var(--highlight);
 }
 
 /* ---------- Layout ---------- */
@@ -172,7 +172,7 @@ main {
 }
 
 .segmented button[aria-pressed="true"] {
-  background: var(--marigold);
+  background: var(--highlight);
   color: var(--board);
   font-weight: 700;
 }
@@ -192,8 +192,8 @@ main {
 }
 
 .btn-outline:hover {
-  border-color: var(--marigold);
-  color: var(--marigold);
+  border-color: var(--highlight);
+  color: var(--highlight);
 }
 
 .btn-outline svg {
@@ -275,7 +275,7 @@ main {
   font-weight: 800;
   font-size: 3.5rem;
   line-height: 1;
-  color: var(--marigold);
+  color: var(--highlight);
 }
 
 /* ---------- Word ---------- */
@@ -326,10 +326,10 @@ main {
   gap: 8px;
   min-height: 44px;
   padding: 0 20px;
-  border: 1px dashed var(--marigold);
+  border: 1px dashed var(--highlight);
   border-radius: 999px;
   background: transparent;
-  color: var(--marigold);
+  color: var(--highlight);
   font: 600 0.95rem var(--font-body);
   cursor: pointer;
 }
@@ -394,7 +394,7 @@ main {
   width: 100%;
   max-width: 640px;
   padding: 20px 24px;
-  border: 2px solid var(--marigold);
+  border: 2px solid var(--highlight);
   border-radius: 16px;
   display: flex;
   flex-direction: column;
@@ -412,7 +412,7 @@ main {
 }
 
 .message.win .title {
-  color: var(--marigold);
+  color: var(--highlight);
 }
 
 .message.lose {
@@ -489,7 +489,7 @@ main {
 }
 
 .letters button:hover:not(:disabled) {
-  border-color: var(--marigold);
+  border-color: var(--highlight);
 }
 
 .letters button:disabled {
@@ -497,8 +497,8 @@ main {
 }
 
 .letters button.correct {
-  background: var(--marigold);
-  border-color: var(--marigold);
+  background: var(--highlight);
+  border-color: var(--highlight);
   color: var(--board);
 }
 
@@ -516,7 +516,7 @@ main {
 
 button:focus-visible,
 a:focus-visible {
-  outline: 3px solid var(--marigold);
+  outline: 3px solid var(--highlight);
   outline-offset: 2px;
 }
 
